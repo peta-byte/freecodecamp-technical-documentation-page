@@ -1,1 +1,13 @@
-
+.scroll {
+  height: 90%;
+  max-height: 600px;
+  overflow-y: auto;
+}
+@media screen and (max-width: 600px) {
+ #first-col {
+    min-width: 300px;
+  }
+  #second-col {
+    min-width: 330px;
+  }  
+}
